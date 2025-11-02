@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body style="text-align:center; font-family:sans-serif;">
+    <h1>Predicted Emotion: {{ emotion }}</h1>
+    <img src="{{ url_for('static', filename=image) }}" alt="Uploaded Image" width="200">
+    <br><br>
+    <a href="/">Try another image</a>
+</body>
+</html>
